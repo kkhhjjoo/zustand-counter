@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 // import './App.css'
-import counterStore from './stores/counterStore.JS'
+import counterStore from './stores/counterStore'
 import CountBox from './components/CountBox';
 
 function App() {

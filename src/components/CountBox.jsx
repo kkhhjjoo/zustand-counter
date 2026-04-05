@@ -1,13 +1,13 @@
-import React from 'react'
-import counterStore from '../stores/counterStore'
+import counterStore from '../stores/counterStore.jsx';
 
 const CountBox = () => {
-  const { count } = counterStore();
+  const count = counterStore((state) => state.count);
+
   return (
     <div>
       <h2>CountBox: {count}</h2>
     </div>
-  )
-}
+  );
+};
 
-export default CountBox
+export default CountBox;
