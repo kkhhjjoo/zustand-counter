@@ -1,5 +1,5 @@
 import React from 'react'
-import counterStore from '../stores/counterStore.JS'
+import counterStore from '../stores/counterStore'
 
 const CountBox = () => {
   const { count } = counterStore();
